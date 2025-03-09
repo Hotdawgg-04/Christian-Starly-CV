@@ -32,6 +32,10 @@ body {
     box-shadow: 0 0 10px rgba(76, 109, 92, 0.404);
 }
 
+@media (max-width: 600px) {
+    body {background: lightgray;}
+}
+
 /* Header */
 .header {   
     display: flex;
