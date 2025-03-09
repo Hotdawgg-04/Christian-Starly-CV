@@ -1,0 +1,235 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.container {
+    border-radius: 16px;
+}
+
+.sidebar {
+    border-bottom-left-radius: 16px;
+}
+
+.header {
+    background-image: url(images/bg\ ijo.svg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+
+.container {
+    width: 800px;
+    margin: 20px auto;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(76, 109, 92, 0.404);
+}
+
+/* Header */
+.header {   
+    display: flex;
+    align-items: center;
+    background-color: #2c9c6a;
+    color: white;
+    padding: 13px;
+}
+
+.profile-img {
+    
+    width: 154px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 35px;
+    background-color: #c2f7d2d2;
+    border: 3px solid white;
+}
+
+.header h1 {
+    font-size: 32px;
+    font-weight: 700px;
+    margin: -1px;
+    padding-left: 80px;
+}
+
+.header p {
+    font-size: 16px;
+    margin: 5px 0 0;
+    padding-left: 80px;
+}
+
+/* Layout untuk Konten */
+.content {
+    display: flex;
+}
+
+/* Sidebar (Kiri) */
+.sidebar {
+    width: 35%;
+    background-color: #e0e0e0;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #323b4c;
+}
+
+.portfolio img{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio img:hover {
+    transform: scale(1.1); /* Membesarkan gambar */
+    box-shadow: 0 0 15px 5px rgba(44, 156, 106, 0.7); /* Glow hijau */
+}
+
+.sidebar h2 {
+    font-size: 18px;
+    font-weight: 800px;
+    color: #323b4c;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 2px solid #2c9c6a;
+    padding-bottom: 5px;
+}
+
+.sidebar ul {
+    font-size: 15px;
+    margin-left: -17px;
+    text-indent: -10px;
+    line-height: 1.7;
+}
+
+.contact p {
+    margin-top: 9px;
+    vertical-align: middle;
+    margin-left: 2px;
+}
+
+
+/* Main Content (Kanan) */
+.main-content {
+    width: 65%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #323b4c;
+}
+
+.main-content h2 {
+    font-size: 18px;
+    border-bottom: 2px solid #2c9c6a;
+    padding-bottom: 9px;
+    padding-left: 0px;
+    color: #323b4c;
+}
+
+.profile img{
+    width: 20px;
+    height: 20px;
+    background-color: #262c36;
+    border: 2px solid #262c36;
+    border-radius: 50px;
+    margin-right: 4px;
+    margin-bottom: -5px;
+}
+
+.profile p {
+text-align: justify;
+hyphens: auto;
+}
+
+.experience ul {
+text-align: justify;
+hyphens: auto;
+margin-top: 37px;
+}
+
+.experience h3{
+    margin-bottom: -11px;
+}
+
+.experience img {
+    width: 18px;
+    height: 18px;
+    background-color: #262c36;
+    border: 3px solid #262c36;
+    border-radius: 50px;
+    margin-right: 4px;
+    margin-bottom: -5px;
+}
+
+.education img {
+    width: 18px;
+    height: 18px;
+    background-color: #262c36;
+    border: 3px solid #262c36;
+    border-radius: 50px;
+    margin-right: 4px;
+    margin-bottom: -5px;
+}
+
+.education {
+    line-height: 0.6;
+}
+
+.education h5{
+    margin-top: 80px;
+    font-size:large;
+    margin-bottom: 2px;
+}
+
+.education h3{
+    margin-bottom: 2px;
+    margin-top: 26px;
+}
+
+.timeline {
+    margin-left: 386px;
+    margin-top: -75px;
+    font-size: 14px;
+}
+
+.timeline1 {
+    margin-left: 403px;
+    margin-bottom: 78px;
+    margin-top: -78px;
+    font-size: 14px;
+}
+
+.waktu {
+    margin-left: 297px;
+    margin-top: -58px;
+    font-size: 14px;
+}
+
+.waktu1 {
+    margin-left: 293px;
+    margin-top: -58px;
+    font-size: 14px;
+}
+.waktu2 {
+    margin-left: 309px;
+    margin-top: -58px;
+    font-size: 14px;
+}
+
+/* Pemisah Vertikal */
+.separator {
+    width: 3px;
+    background-color: #2c9c6a;
+}
+
+/* Ikon */
+.icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
